@@ -48,7 +48,9 @@ addEventOnElem(navbarLinks, "click", closeNavbar);
  * active header when window scroll down to 100px
  */
 
+
 const header = document.querySelector("[data-header]");
+console.log(header);
 const backTopBtn = document.querySelector("[data-back-top-btn]");
 
 const activeElemOnScroll = function () {
